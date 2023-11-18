@@ -27,8 +27,8 @@ window.addEventListener("load", function () {
 
         const pilotName = document.querySelector("input[name=pilotName]").value;
         const copilotName = document.querySelector("input[name=copilotName]").value;
-        const fuelLevel = Number(document.querySelector("input[name=fuelLevel").value);
-        const cargoMass = Number(document.querySelector("input[name=cargoMass").value);
+        const fuelLevel = Number(document.querySelector("input[name=fuelLevel]").value);
+        const cargoMass = Number(document.querySelector("input[name=cargoMass]").value);
 
         const faultyItems = document.getElementById('faultyItems');
 

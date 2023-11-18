@@ -33,8 +33,7 @@ function validateInput(value) {
 // Handling Form Submissions
 function formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel) {
     // Validating Inputs
-    // let pilotValid = validateInput(pilot);
-    // let copilotValid = validateInput(copilot);
+
     let fuelLevelValid = validateInput(fuelLevel);
     let cargoMassValid = validateInput(cargoLevel);
 
